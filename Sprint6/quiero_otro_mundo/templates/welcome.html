@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% block titulo %} Bienvenido a Yo Quiero Otro Mundo - Eres especial solo por ser parte de esto {% endblock %}
+{% block content %}
+<img src="{% static 'images/giphy.gif' %}" alt="saludo" width="300px" class="align-content-start">
+<div class="container text-center">
+    <p class="fs-2 h2">
+        Bienvenido {{ username }} a este hermoso lugar, ¡Juntos haremos cosas increibles por el planeta!
+    </p>
+    <p class="h3 fs-3">
+        Has iniciado sesión exitosamente
+    </p>
+    <a class="btn btn-primary" href="{% url 'index' %}">
+        Inicio
+    </a>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block titulo %} Yo Quiero Otro Mundo - Personas que quieren cambiar el mundo {% endblock %}
+    {% block content %}
+    <section id="hero" class="text-start" style="list-style: none;">
+        <div class="hero-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="h1 fs-1">Ellos ya son parte de este hermoso proyecto para salvar el mundo.</p>
+                        <ul class="text-decoration-none" style="list-style: none;">
+                            {% for user in users %}
+                            <li>{{ user.username }}</li>
+                            <li>{{ user.name }} {{ user.surname }}</li>
+                            <li>{{ user.email }}</li>
+                            <hr>
+                            {% endfor %}
+                        </ul>
+                        <p class="h3 fs-3">Tambien pueder ser parte de este hermoso proyecto <a
+                                href="{% url 'register' %}" class="btn btn-primary">uniendote</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock%}
