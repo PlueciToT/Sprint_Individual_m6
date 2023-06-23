@@ -1,12 +1,15 @@
 # Sprint_Individual_m6
 ## Yo quiero otro mundo APP - Nicolas Calderón
 ![Banner](https://i.imgur.com/lYPuTHd.png) <br>
-<justify>
-Acontinuacion te dare a conocer el proyecto estudiantil aplicado por Awakelab "Yo quiero otro mundo" un proyecto el cual esta basado en la pasion y en que es lo que queremos para este planeta, como lo imaginamos y que podemos hacer por el y contribuir por un mejor futuro, ademas te dejare credenciales para que puedas ver el funcionamiento base ver las restricciones creadas en el proyecto.<br>
+<p align=justify>
+Acontinuacion te dare a conocer el proyecto estudiantil aplicado por Awakelab "Yo quiero otro mundo" un proyecto el cual esta basado en la pasion y en que es lo que queremos para este planeta, como lo imaginamos y que podemos hacer por el y contribuir por un mejor futuro, ademas te dejare credenciales para que puedas ver el funcionamiento base ver las restricciones creadas en el proyecto.
+</p>
+<p align=justify>
 Este proyecto si bien es basico y simple aun asi esta realizado con amor y pasion, y expuesto para todo aquel que pueda necesitar una guia o idea basica.
-</justify>
+</p>
 ---
-/// CREDENCIALES ///
+<p align=justify>
+/// CREDENCIALES ///<br>
 🌱 Usuario regular <br>
 Username: Astra <br>
 Pass:     Gata1234 <br>
@@ -14,17 +17,23 @@ Pass:     Gata1234 <br>
 🌳 Usuario Admin <br>
 Username: ClaudioDel <br>
 Pass:	  AwakeLab123 <br>
-(puede ver toda la pagina) <br>
+(puede ver toda la pagina)
+</p>
 ---
+<p align=justify>
 /// Registrate /// <br>
-![registro](https://i.imgur.com/RHEjzUl.png) La interfaz es dinamica pero sencilla, ya que se ha pensado para ser un portal de noticias o articulos con tematica medioambiental. Al momento de ir a registrarte puedes escojer si quieres aportar escribiendo notas (siendo Blogger) o siendo siendo lector y compartiendo el contenido con otras personas, entre todos creamos comunidad, cabe destacar que podrias dar tu opinion en cada publicacion ¡todos queremos escucharte! 😀
-
+![registro](https://i.imgur.com/RHEjzUls.png) La interfaz es dinamica pero sencilla, ya que se ha pensado para ser un portal de noticias o articulos con tematica medioambiental. Al momento de ir a registrarte puedes escojer si quieres aportar escribiendo notas (siendo Blogger) o siendo siendo lector y compartiendo el contenido con otras personas, entre todos creamos comunidad, cabe destacar que podrias dar tu opinion en cada publicacion ¡todos queremos escucharte! 😀
+</p>
+<p align=right>
+dsasad
+</p>
+<p align=justify>
 /// Grupos /// <br>
 - Se añaden dos grupos, Blogger y RegularUser, los cuales tienen distintos permisos.
 - Blogger pueder Ver: permisos, grupos, Usuarios (app y proyecto), contenido y sesion - Editar: Su usuario, contenido - Eliminar: Su user, su contenido, y cerrar sesion - Agregar: Contenido al blog e iniciar sesion.
 - RegularUser puede Ver: su sesion, su usuario, permisos y contenidos - Editar su user - Iniciar y cerrar su sesion.
 Los permisos son equilibrados para que el blogger pueda tener los mismos permisos que el usuario regular, pero ademas puede agregar contenido, editarlo o eliminarlo. Cabe destacar que el Blogger es parte del
-Staff por lo que tiene algunos accesos mas, mientras que el RegularUser es un usuario de estado "activo"
+Staff por lo que tiene algunos accesos mas, mientras que el RegularUser es un usuario de estado "activo"</p>
 
 ### Descripción
 Nuestra aplicación "quiero_otro_mundo" es una aplicación web desarrollada en Django que permite a los usuarios registrarse, realizar login/logout y permite a los administradores ver quines forman parte
