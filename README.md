@@ -14,6 +14,7 @@ Pass: 	  Gata1234
 (puede ver todo excepto users)
 
 ////////////////////////////////////////
+
 🌳 Usuario Admin ---
 
 Username: ClaudioDel
@@ -21,6 +22,7 @@ Username: ClaudioDel
 Pass:	  AwakeLab123
 
 (puede ver toda la pagina)
+
 ////////////////////////////////////////
 
 ////////// "quiero_otro_mundo" app //////////
