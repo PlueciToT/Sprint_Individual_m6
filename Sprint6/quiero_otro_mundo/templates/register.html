@@ -18,19 +18,20 @@
                             {% csrf_token %}
                             <div class="form-group">
                                 <label for="username">Nombre de usuario:</label>
-                                <input type="text" class="form-control" id="username" name="username" required>
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese su nombre de usuario" aria-label="username input" required>
                             </div>
                             <div class="form-group">
                                 <label for="password">Contraseña:</label>
-                                <input type="password" class="form-control" id="password" name="password" required>
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Ingrese su contraseña" aria-label="password input" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email:</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="email@ejemplo.com" aria-label="e-mail input" required>
                             </div>
                             <div class="container">
                                 <label for="group">Escoge tu manera de contribuir: </label>
-                                <select name="Grupos" id="group">
+                                <select name="Grupos" id="group" class="form-select form-select-sm" aria-label="grupo select">
+                                    <option selected>Lo importante es tenerte aqui</option>
                                     <option value="1">
                                         Blogger
                                     </option>
@@ -38,6 +39,10 @@
                                         Lector
                                     </option>
                                 </select>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault">Esto no hace nada pero te hara feliz moverlo.</label>
                             </div>
                             <div class="form-group">
                                 <p class="my-3"><button type="submit" class="btn btn-primary">Registrarse</button></p>
