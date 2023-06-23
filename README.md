@@ -20,12 +20,19 @@ Pass:	  AwakeLab123 <br>
 (puede ver toda la pagina)
 </p>
 ---
-<p align=justify>
-/// Registrate /// <br>
-![registro](https://i.imgur.com/RHEjzUls.png) La interfaz es dinamica pero sencilla, ya que se ha pensado para ser un portal de noticias o articulos con tematica medioambiental. Al momento de ir a registrarte puedes escojer si quieres aportar escribiendo notas (siendo Blogger) o siendo siendo lector y compartiendo el contenido con otras personas, entre todos creamos comunidad, cabe destacar que podrias dar tu opinion en cada publicacion ¡todos queremos escucharte! 😀
+<p align=justify>/// Registrate /// <br>
+  
+![registro](https://i.imgur.com/RHEjzUl.png)
+
+La interfaz es dinamica pero sencilla, ya que se ha pensado para ser un portal de noticias o articulos con tematica medioambiental. Al momento de ir a registrarte puedes escojer si quieres aportar escribiendo notas (siendo Blogger) o siendo siendo lector y compartiendo el contenido con otras personas, entre todos creamos comunidad, cabe destacar que podrias dar tu opinion en cada publicacion ¡todos queremos escucharte! 😀
 </p>
-<p align=right>
-dsasad
+
+![registro2](https://i.imgur.com/BASdHZp.gif)
+<p align=justify>
+/// Inicia y cierra tu sesión cuando quieras /// <br>
+
+![inicia](https://i.imgur.com/zvQbKl7.png)
+Inicia sesion, disfruta, crea comunidad y cuando ya te quieras salir cierra tu sesion cuando quieras.
 </p>
 <p align=justify>
 /// Grupos /// <br>
