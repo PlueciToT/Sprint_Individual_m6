@@ -1,20 +1,7 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
 {% load static %}
-
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yo Quiero Otro Mundo - Inicia el cambio</title>
-    <link href="{% static  'style.css' %}" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-
-<body>
+{% block titulo %} Yo Quiero Otro Mundo - Ingresa para pasar a la accion {% endblock %}
     {% block content %}
-    <section id="hero">
         <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="card text-bg-light pt-4 pb-4 pl-3 shadow p-3 mb-5 bg-body-tertiary rounded text-start">
@@ -54,13 +41,4 @@
                 </div>
             </div>
         </div>
-    </section>
     {% endblock %}
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
-
-</html>

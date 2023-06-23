@@ -1,21 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yo Quiero otro mundo</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="{% static  'style.css' %}" rel="stylesheet">
-</head>
-
-<body>
+{% block titulo %} Yo Quiero Otro Mundo - Juntos por el Planeta {% endblock %}
   {% block content %}
-  <section id="hero">
     <!-- Carousel -->
     <div class="container">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -44,20 +30,28 @@
     </div>
     <!-- carousel end -->
     <div class="hero-content">
-      <p>
-      <h2>Cambia tu mundo, cambia el mundo</h2>
+      <p class="h2 fs-2">
+        Cambia tu mundo, cambia el mundo
       </p>
-      <p>En Quiero otro mundo, trabajamos para crear un futuro sostenible y equitativo para todos. Únete a nosotros y
-        haz la diferencia.</p>
-      <a href="#contact" class="btn">Contacta con nosotros</a>
+      <p>
+        En Quiero otro mundo, trabajamos para crear un futuro sostenible y equitativo para todos. Únete a nosotros y
+        haz la diferencia.
+      </p>
+      <a href="#contact" class="btn">
+        Contacta con nosotros
+      </a>
     </div>
   </section>
 
   <section id="about">
     <div class="container">
-      <h3>Sobre nosotros</h3>
-      <p>Somos un equipo de profesionales comprometidos con el medio ambiente y la justicia social. Trabajamos en
-        proyectos innovadores que buscan transformar la sociedad.</p>
+      <h3>
+        Sobre nosotros
+      </h3>
+      <p>
+        Somos un equipo de profesionales comprometidos con el medio ambiente y la justicia social. Trabajamos en
+        proyectos innovadores que buscan transformar la sociedad.
+      </p>
     </div>
   </section>
 
@@ -71,11 +65,4 @@
         <li>Proyectos de desarrollo sostenible</li>
       </ul>
     </div>
-  </section>
   {% endblock%}
-  <!-- Scripts de Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
-</html>

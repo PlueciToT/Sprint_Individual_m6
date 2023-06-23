@@ -1,29 +1,18 @@
 {% extends "base.html" %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yo Quiero otro mundo</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="{% static  'style.css' %}" rel="stylesheet">
-</head>
-
-<body>
-    {% block content %}
-    <section id="hero">
-        <div class="container text-start">
-                <img src="{% static 'images/YQOM_Logo.png'%}" alt="YQOM_Logo" width="100px">
-            <div class="row mt-5">
-                <div class="col">
-                    <p class="h1 fs-1 col-9"><span class="fw-bold">Todo</span> comienza al convertirte en miembro de Yo quiero otro Mundo.
-                        <br>
-                        <span class="fs-6 h6">Si ya eres parte de esta gran comunidad <a href="{% url 'login' %}" class="link-primary">Inicia sesión</a></>
-                    </p>
+{% block titulo %} Yo Quiero Otro Mundo - Registrate para cambiar el planeta {% endblock %}
+{% block content %}
+<div class="container text-start">
+    <div class="row mt-5">
+        <div class="col">
+            <div class="card bg-white shadow">
+                <div class="card-body">
+                    <img src="{% static 'images/YQOM_Logo.png'%}" alt="YQOM_Logo" width="100px">
+                    <p class="h1 fs-1 col-9"><span class="fw-bold">Todo</span> comienza al convertirte en miembro de Yo
+                        quiero otro Mundo.</p>
+                    <br>
+                    <p class="fs-6 h6">Si ya eres parte de esta gran comunidad <a href="{% url 'login' %}"
+                            class="link-success">Inicia sesión</a></p>
                     <div class="col-10">
                         <form method="post">
                             {% csrf_token %}
@@ -39,6 +28,17 @@
                                 <label for="email">Email:</label>
                                 <input type="email" class="form-control" id="email" name="email" required>
                             </div>
+                            <div class="container">
+                                <label for="group">Escoge tu manera de contribuir: </label>
+                                <select name="Grupos" id="group">
+                                    <option value="1">
+                                        Blogger
+                                    </option>
+                                    <option value="2">
+                                        Lector
+                                    </option>
+                                </select>
+                            </div>
                             <div class="form-group">
                                 <p class="my-3"><button type="submit" class="btn btn-primary">Registrarse</button></p>
                             </div>
@@ -46,11 +46,8 @@
                     </div>
                 </div>
             </div>
-    </section>
-    {% endblock%}
-    <!-- Scripts de Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+        </div>
+    </div>
+</div>
 
-</html>
+{% endblock%}
